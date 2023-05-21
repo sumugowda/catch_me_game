@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mouse{
+    width: 100px; 
+    position: absolute;
+    top: 74%;
+    left: 4%;
+    padding: 40px;
+    transition: .2s ease;
+
+}
+.rbtn{
+    width: 70px; 
+    position: absolute;
+    top: 0%;
+    left: 95%;
+    transition: .2s ease;
+
+}
+.sbtn{
+    width: 70px; 
+    position: absolute;
+    top: 0%;
+    left: 95%;
+    transition: .2s ease;
+
+}
+.home{
+    width: 300px; 
+    position: absolute;
+    top: 65%;
+    left: -5%;
+    transition: .2s ease;
+
+}
+.rbtn{
+    display: none;
+}
+.mouse img,.rbtn img,.sbtn img,.home img{
+    width: 100%;
+}
